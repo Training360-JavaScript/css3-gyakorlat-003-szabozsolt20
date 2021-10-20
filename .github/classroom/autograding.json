@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Full Test",
+      "setup": "npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 28
+    },
+    {
+      "name": "Test 1",
+      "setup": "npm install",
+      "run": "npm run test01",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Test 2",
+      "setup": "npm install",
+      "run": "npm run test02",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Test 3",
+      "setup": "npm install",
+      "run": "npm run test03",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Test 4",
+      "setup": "npm install",
+      "run": "npm run test04",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Test 5",
+      "setup": "npm install",
+      "run": "npm run test05",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Test 6",
+      "setup": "npm install",
+      "run": "npm run test06",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "Test 7",
+      "setup": "npm install",
+      "run": "npm run test07",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
