@@ -1,0 +1,163 @@
+/**
+* selector: cta-100 osztály
+* 1. felső margó: 100 képpont
+* 2. bal padding: 70 pixel
+* 3. felső padding: 70 pixel
+*/
+
+
+/**
+* selector: col-md-4 osztály
+* 4. alsó padding: 20 pixel
+*/
+
+
+/**
+* selector: white oszály
+* 5. kitöltőszín: fehér
+*/
+
+
+/**
+* selector: mt oszály
+* 6. igazítás: balra
+* 7. felső margó: -20 pixel
+* 8. felső padding: 20px
+*/
+
+
+.bg-blue-ui {
+  background-color: #708198 !important;
+}
+figure img{width:300px;}
+
+/**
+* selector: blogCarousel azonosító
+* 9. alsó padding: 100 pixel
+*/
+
+
+/**
+* selector: a blog oszályú elemen belül lévő carousel-indicators osztályú elemek
+* 10. balról: 0
+* 11. fentről: -50 pixel
+* 12. magasság: 280 pixel
+*/
+
+
+/* The colour of the indicators */
+/**
+* selector: a blog oszályú elemen belül lévő carousel-indicators osztályú 
+* elemeken belül lévő li elemek
+* 13. háttérszín: 708198
+* 14. szegély lekerekítése: 50 százalék
+* 15. szélesség: 8 pixel
+* 16. magasság: 8 pixel
+*/
+
+
+.blog .carousel-indicators .active {
+  background: #0fc9af;
+}
+
+
+
+
+.item-carousel-blog-block {
+  outline: medium none;
+  padding: 15px;
+}
+
+.item-box-blog {
+  border: 1px solid #dadada;
+  text-align: center;
+  z-index: 4;
+  padding: 20px;
+}
+
+.item-box-blog-image {
+  position: relative;
+}
+
+.item-box-blog-image figure img {
+  width: 100%;
+  height: auto;
+}
+
+/**
+* selector: item-box-blog-date osztályú elemek
+* 17. pozíció: abszolút
+* 18. mélység index: 5
+* 19. felső-alsó padding: 4 pixel
+* 20. jobb-bal padding: 20 pixel
+* 21. fentről: -20 pixel
+* 22. jobbról: 8 pixel
+* 23. háttérszín: 41cb52
+*/
+
+
+.item-box-blog-date span {
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.item-box-blog-date span.mon {
+  font-size: 18px;
+}
+
+.item-box-blog-date span.day {
+  font-size: 16px;
+}
+
+.item-box-blog-body {
+  padding: 10px;
+}
+
+/**
+* selector: az item-box-blog-body oszályú elemen belül lévő, a elemekben lévő 
+* h5 elemek
+* 24. margó: 0
+* 25. sormagasság: 24px
+* 26. szöveg dekoráció: kikapcsolva
+* 27. átmenet: a színekre legyen alkalmazva .3 másodperces értékkel
+*/
+
+
+.item-box-blog-heading a {
+    text-decoration: none;
+}
+
+.item-box-blog-data p {
+  font-size: 13px;
+}
+
+.item-box-blog-data p i {
+  font-size: 12px;
+}
+
+.item-box-blog-text {
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.mt-10 {
+  float: left;
+  margin-top: -10px;
+  padding-top: 10px;
+}
+
+.btn.bg-blue-ui.white.read {
+  cursor: pointer;
+  padding: 4px 20px;
+  float: left;
+  margin-top: 10px;
+}
+
+/**
+* selector: azok az elemek, amelyek egyszerre tartoznak a 
+* btn, bg-blue-ui, white, read osztályokhoz
+* 28. doboz árnyék: x irány 0, y irány 5 pixel, méret 15 pixel, belső árnyék, szín 4d5f77
+*/
+
