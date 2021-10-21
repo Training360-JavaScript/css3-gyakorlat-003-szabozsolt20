@@ -4,19 +4,27 @@
 * 2. bal padding: 70 pixel
 * 3. felső padding: 70 pixel
 */
-
+.cta-100 {
+  margin-top: 100px;
+  padding-left: 70px;
+  padding-top: 70px;
+}
 
 /**
 * selector: col-md-4 osztály
 * 4. alsó padding: 20 pixel
 */
-
+.col-md-4 {
+  padding-bottom: 20px;
+}
 
 /**
 * selector: white oszály
 * 5. kitöltőszín: fehér
 */
-
+.white {
+  color: white;
+}
 
 /**
 * selector: mt oszály
@@ -24,7 +32,11 @@
 * 7. felső margó: -20 pixel
 * 8. felső padding: 20px
 */
-
+.mt {
+  float: left;
+  margin-top: -20px;
+  padding-top: 20px;
+}
 
 .bg-blue-ui {
   background-color: #708198 !important;
@@ -35,7 +47,9 @@ figure img{width:300px;}
 * selector: blogCarousel azonosító
 * 9. alsó padding: 100 pixel
 */
-
+#blogCarousel {
+  padding-bottom: 100px;
+}
 
 /**
 * selector: a blog oszályú elemen belül lévő carousel-indicators osztályú elemek
@@ -43,7 +57,11 @@ figure img{width:300px;}
 * 11. fentről: -50 pixel
 * 12. magasság: 280 pixel
 */
-
+.blog .carousel-indicators {
+  left: 0;
+  top: -50px;
+  height: 280px;
+}
 
 /* The colour of the indicators */
 /**
@@ -54,7 +72,12 @@ figure img{width:300px;}
 * 15. szélesség: 8 pixel
 * 16. magasság: 8 pixel
 */
-
+.blog .carousel-indicators li {
+  background-color: #708198;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
 
 .blog .carousel-indicators .active {
   background: #0fc9af;
@@ -94,7 +117,14 @@ figure img{width:300px;}
 * 22. jobbról: 8 pixel
 * 23. háttérszín: 41cb52
 */
-
+.item-box-blog-date {
+  position: absolute;
+  z-index: 5;
+  padding: 4px 20px;
+  top: -20px;
+  right: 8px;
+  background-color: #41cb52;
+}
 
 .item-box-blog-date span {
   color: #fff;
@@ -123,7 +153,13 @@ figure img{width:300px;}
 * 26. szöveg dekoráció: kikapcsolva
 * 27. átmenet: a színekre legyen alkalmazva .3 másodperces értékkel
 */
-
+.item-box-blog-body a h5 {
+  margin: 0;
+  line-height: 24px;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: .3s;
+}
 
 .item-box-blog-heading a {
     text-decoration: none;
@@ -160,4 +196,6 @@ figure img{width:300px;}
 * btn, bg-blue-ui, white, read osztályokhoz
 * 28. doboz árnyék: x irány 0, y irány 5 pixel, méret 15 pixel, belső árnyék, szín 4d5f77
 */
-
+.btn.bg-blue-ui.white.read {
+  box-shadow: 0 5px 15px inset #4d5f77;
+}
